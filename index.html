@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maria Laura — Autrice | Lasciami andare</title>
+  <meta name="description" content="Sito ufficiale di Maria Laura, autrice di 'Lasciami andare' (Montag, in uscita a dicembre 2025). Biografia, libro, portfolio e contatti." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="#top">Maria&nbsp;Laura</a>
+      <nav class="nav">
+        <a href="#libro">Il libro</a>
+        <a href="#bio">Chi è</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contatti">Contatti</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container grid-2">
+        <div>
+          <p class="eyebrow">In uscita a dicembre 2025</p>
+          <h1>Lasciami andare</h1>
+          <p class="subtitle">Il romanzo di debutto di <strong>Maria Laura</strong>, edito da <strong>Montag</strong>.</p>
+          <a class="btn primary" href="#libro">Scopri il libro</a>
+        </div>
+        <div class="hero-art">
+          <div class="cover">Copertina<br><small>(Segnaposto)</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="libro" class="section">
+      <div class="container">
+        <h2>Il libro</h2>
+        <p class="lead"><strong>Lasciami andare</strong> — Editore: Montag — Uscita: dicembre 2025</p>
+        <p>Ispirato a <em>Lolita</em> di Nabokov. A Roma, un imprenditore trentaduenne si trova coinvolto in una relazione intensa e ambigua con una ragazza di sedici anni. Entrambi dovranno affrontare un legame complesso, travolti da sentimenti forti e sconosciuti.</p>
+      </div>
+    </section>
+
+    <section id="bio" class="section alt">
+      <div class="container grid-2">
+        <div>
+          <h2>Chi è Maria Laura</h2>
+          <p>Nata il <strong>23 settembre 1987</strong> a <strong>Nocera Inferiore</strong>, amante dei libri fin da giovane. Durante l’adolescenza scrive racconti brevi, e a 18 anni nasce il desiderio di qualcosa di più grande: <em>Lasciami andare</em>. Dopo aver incontrato la casa editrice <strong>Montag</strong>, realizza il sogno di pubblicare il suo primo romanzo.</p>
+        </div>
+        <div class="bio-card">
+          <p><strong>Città:</strong> Nocera Inferiore</p>
+          <p><strong>Nascita:</strong> 23/09/1987</p>
+          <p><strong>Ruolo:</strong> Autrice</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section">
+      <div class="container">
+        <h2>Portfolio</h2>
+        <p>Racconti brevi, estratti, interviste e recensioni (in arrivo).</p>
+      </div>
+    </section>
+
+    <section id="contatti" class="section alt">
+      <div class="container">
+        <h2>Contatti</h2>
+        <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+        <p>Instagram: <a href="#">@marialaura</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Maria Laura. Tutti i diritti riservati.</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
