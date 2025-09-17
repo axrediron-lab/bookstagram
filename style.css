@@ -47,11 +47,17 @@ body {
 .section.alt { background: var(--bg-alt); }
 h2 { margin-top: 0; }
 
-.bio-card {
-  background: var(--bg);
-  padding: 16px;
-  border-radius: var(--radius);
-  border: 1px solid var(--border);
+.bio-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portrait {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  filter: grayscale(100%);
+  box-shadow: 0 8px 20px rgba(0,0,0,.4);
 }
 
 .btn {
